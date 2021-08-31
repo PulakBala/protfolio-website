@@ -1,0 +1,35 @@
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 5px 20px;
+    border: 3px solid white;
+    outline: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: red;
+    color: black;
+    transition: all .3s ease;
+}
+.btn-secondary{
+    background-color: turquoise;
+    color: black;
+    transition: all .3s ease;
+    border:2px  cyan solid;
+}
+.btn-secondary:hover{
+  background-color: black;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
